@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Новогодняя гирлянда</title>
+</head>
+
+<body>
+    <!-- КВИЗ -->
+    <div class="quiz">
+        <div class="quiz-wrap">
+            <div id="question" class="question"></div>
+            <div id="choices" class="choices"></div>
+            <button id="next-button" class="next-button">Далее &#8594;</button>
+        </div>
+
+        <form id="tg-form" class="tg-form">
+            <h2>Спасибо за ответы!</h2>
+            <p>
+                Мы закрепим за Вашим номером подарок. Оставьте номер 
+                телефона для уточненния деталей Вашей заявки и мы 
+                перезвоним в ближайшее время!
+            </p>
+            <div class="answer-card"><input class="form__input" name="name" id="name" type="text" placeholder="Введите ваше имя" required="" minlength="2"></div>
+            <div class="answer-card"><input class="form__input tel-1 tel" name="phone" id="phone" type="tel" placeholder="Ваш номер телефона" required=""></div>
+            <div><button type="submit" class="next-button" id="btn">Отправить</button></div>
+        </form>
+    </div>
+    <!-- КВИЗ -->
+
+    <div class="green-blur"></div>
+
+    <header>
+        <p>Получите желаемое сегодня, платите удобно позже!</p>
+    </header>
+
+    <main>
+        <section class="screen">
+            <h1>
+                Гирлянда <br />
+                СИЯНИЕ ПРАЗДНИКА
+            </h1>
+            <div class="screen-wrap">
+                
+                <div class="screen-item text-item">
+                    <p>
+                        Великолепная новогодняя гирлянда, создающая волшебную 
+                        атмосферу в вашем доме или на улице. Она оборудована 
+                        яркими и долговечными светодиодными огнями, которые 
+                        обеспечивают мягкое и уютное освещение, потребляя 
+                        минимальное количество энергии.
+                    </p>
+                </div>
+
+
+                <div class="screen-item img-item">
+                    <img src="src/img/main_1.png" alt="Изображение товара">
+                </div>
+
+                <div class="screen-item ul-item">
+                    <ul>
+                        <li>
+                            <div class="point"></div>
+                            <p>Без первоначального взноса</p>
+                        </li>
+
+                        <li>
+                            <div class="point"></div>
+                            <p>Гибкие платежи</p>
+                        </li>
+
+                        <li>
+                            <div class="point"></div>
+                            <p>Отсутствие переплат</p>
+                        </li>
+                    </ul>
+                    <button class="fly-button">Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>Немного о нас</h2>
+            <div class="about-wrap">
+                <div class="about-item">
+                    <div class="number">01</div>
+                    <div class="line"></div>
+                    <div class="item-text">
+                        Гирлянда устойчива к влаге и погодным условиям, что позволяет использовать её как в помещении, так и на улице.
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <div class="number">02</div>
+                    <div class="line"></div>
+                    <div class="item-text">
+                        Гирлянда устойчива к влаге и погодным условиям, что позволяет использовать её как в помещении, так и на улице.
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <div class="number">03</div>
+                    <div class="line"></div>
+                    <div class="item-text">
+                        Гирлянда устойчива к влаге и погодным условиям, что позволяет использовать её как в помещении, так и на улице.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-title">
+            <h2>Свяжитесь с нами</h2> <button class="fly-button">Заказать</button>
+        </div>
+        <div class="footer-wrap">
+            <div class="footer-item">
+                <p>
+                    <span>Время работы: </span>пн-вс 09:00 - 21:00
+                </p>
+                <p>
+                    ООО “Техникаком” УНП 193699866 <br />
+                    220046, г. Минск, а/я 46
+                </p>
+                <p>Акция действует на всей территории Беларуси</p>
+            </div>
+
+            <div class="footer-item">
+                <p>
+                    Контакты
+                </p>
+                <p>
+                    <span>Телефон: </span><a href="tel:+375(29)123-45-67">+375(29)123-45-67</a>
+                </p>
+                <p>
+                    <span>Почта: </span><a href="mailto:technika.com">technika.com</a>
+                </p>
+            </div>
+
+            <div class="footer-item">
+                <p>    
+                    <a href="src/documents/politics.html">Политика конфиденциальности</a>
+                </p>
+                <p>    
+                    <a href="src/documents/agreement.html">Пользовательское соглашение</a>
+                </p>
+                <p>    
+                    <a href="src/documents/dogovor_vozvrata.html">Договор возврата товара и денежных средств</a>
+                </p>
+                <p>    
+                    <a href="src/documents/dostavka.html">Договор доставки</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="src/js/quiz.js"></script>
+</body>
+
+</html>
